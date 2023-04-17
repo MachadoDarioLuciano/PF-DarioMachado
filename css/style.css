@@ -32,7 +32,7 @@ header {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar a {
+.navbarra a {
     text-decoration: none;
     color: aliceblue;
     font-family: 'Montserrat', sans-serif;
@@ -41,15 +41,34 @@ header {
     border-radius: 3px;
 }
 
-.navbar {
+.navbarra {
     text-align: center;
 }
 
-.navbar a:hover {
+.navbarra a:hover {
     color: #37373F;
     background-color: aliceblue;
     transition: .3s;
     transform: scale(1.2);
+}
+.icon-hamb{
+    display: none;
+}   
+@media(max-width: 1069px){
+    .logo h2{
+        font-size: 20px;
+    }
+    .logo img{
+        height: 30px;
+    }
+    .navbarra a{
+        padding: 3px;
+        margin: 6px 10px;
+        font-size: 12px;
+    }
+    .subtitulo-index p{
+        font-size: 20px;
+    }
 }
 
 @media(max-width: 767px) {
@@ -57,10 +76,40 @@ header {
         flex-direction: column;
     }
 
-    .navbar {
-        padding: 10px 0px;
-    }
+    .navbarra {
+        padding: 8px 0px;
+    }    
 }
+@media(max-width: 528px){
+    header{
+        flex-direction: row;
+    }
+    .navbarra a{
+        display: none;
+    }
+    .icon-hamb{
+        display: inline-block;
+    }
+    .icon-hamb nav{
+        height: 0px;
+        background: #37373F;
+
+    }
+    .resp-log{
+        width: 60px;
+    }
+    .navbar-brand{
+        font-family: 'Montserrat', sans-serif;
+        color: aliceblue;
+    }
+    
+    .container-fluid{
+        background: #37373F;
+        height: 70px;
+    }
+   }
+
+
 
 /* INICIO */
 #carouselExampleCaptions {
@@ -94,6 +143,11 @@ header {
 .subtitulo-index p {
     padding: 10px 0;
     text-align: center;
+}
+@media(max-width: 767px){
+    #carouselExampleCaptions{
+        width: 100%;
+    }
 }
 
 /* FOOTER */
@@ -389,7 +443,7 @@ ul {
 
 @media(min-width: 769px) {
     .contenedor {
-        padding: 0 40px;
+        padding: 0 20px;
     }
 
     .container-form {
@@ -408,6 +462,24 @@ ul {
         text-align: left;
     }
 }
+@media(max-width: 559px){
+    .contact-form form{
+        display: block;
+    }
+    .contenedor{
+        padding: 15px;
+    }
+    .container-contacto{
+        margin: 0;
+        padding: 0;
+        padding-top: 15px;
+    }
+    .titulo-contacto{
+        font-size: 25px;
+        padding-bottom: 10px;
+    }
+}
+
 
 
 /* LOGO FLOTANTE WHATSAPP */
