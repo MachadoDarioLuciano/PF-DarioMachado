@@ -123,6 +123,9 @@ header {
     .navbarra {
         display: none;
     }
+    .marg-top{
+        padding: 0 !important;
+    }
 
 }
 
