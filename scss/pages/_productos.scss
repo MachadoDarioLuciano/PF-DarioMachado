@@ -5,8 +5,8 @@
     width: 80%;
     margin: auto;
     background: $gris;
-    border-top: 20px solid #c0c0c0;
-    border-bottom: 20px solid #c0c0c0;
+    border-top: 20px solid $fondo;
+    border-bottom: 20px solid $fondo;
 
     .section-productos {
         text-align: center;
@@ -29,7 +29,7 @@
             height: 300px;
         }
 
-        .button-carr {
+        .button-prod {
             display: none;
         }
     }
@@ -67,7 +67,7 @@
                 font-size: 10px;
             }
 
-            .button-carr {
+            .button-prod {
                 display: inline-block;
             }
 

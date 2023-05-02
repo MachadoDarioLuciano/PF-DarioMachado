@@ -17,8 +17,10 @@ header {
             margin: 12px;
         }
 
-        h2 {
+        h1 {
             margin: 12px;
+            font-size: 25px;
+            font-weight: bold;
         }
     }
 
@@ -49,8 +51,8 @@ header {
 
     @media(max-width: 1069px) {
         .logo {
-            h2 {
-                font-size: 20px;
+            h1 {
+                font-size: 19px;
             }
 
             img {

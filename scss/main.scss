@@ -1,7 +1,13 @@
-$verde: #91C612;
-$gris: #37373F;
-@import './utilities/reseteo';
+// VARIAGLE
+@import './utilities/colors';
+
+// TIPY
 @import './utilities/typo';
+
+// RESETEO
+@import './utilities/reseteo';
+
+// PAGES
 @import './pages/navbar';
 @import './pages/footer';
 @import './pages/logo-wsp';
