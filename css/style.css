@@ -183,7 +183,7 @@ header {
     margin: 20px auto;
     margin-top: 80px;
     font-size: 30px;
-    padding: 20px 0;
+    padding: 20px 20px;
     border-left: 3px #91C612;
     border-style: outset;
     color: black; }
@@ -214,7 +214,7 @@ header {
   justify-content: center;
   width: 80%;
   margin: auto;
-  background: #37373F;
+  background: #9c9ca1;
   border-top: 20px solid #c0c0c0;
   border-bottom: 20px solid #c0c0c0; }
   .main-productos .section-productos {
@@ -273,7 +273,7 @@ header {
   justify-content: center;
   width: 80%;
   margin: auto;
-  background: #37373F;
+  background: #9c9ca1;
   border-top: 20px solid #c0c0c0;
   border-bottom: 20px solid #c0c0c0; }
   .main-ofertas .section-ofertas {
